@@ -1,0 +1,5281 @@
+[
+{
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 442818900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.logging.InternalLoggerFactory",
+  "message" : "Using Log4J2 as the default logging framework",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.logging.InternalLoggerFactory",
+    "method" : "useLog4J2LoggerFactory",
+    "file" : "InternalLoggerFactory.java",
+    "line" : 76,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 599990100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetector",
+  "message" : "-Dio.netty.leakDetection.level: simple",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetector",
+    "method" : "<clinit>",
+    "file" : "ResourceLeakDetector.java",
+    "line" : 129,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 600991400
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetector",
+  "message" : "-Dio.netty.leakDetection.targetRecords: 4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetector",
+    "method" : "<clinit>",
+    "file" : "ResourceLeakDetector.java",
+    "line" : 130,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 608991900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetectorFactory",
+  "message" : "Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6411d3c8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory",
+    "method" : "newResourceLeakDetector",
+    "file" : "ResourceLeakDetectorFactory.java",
+    "line" : 196,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 635990500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "-Dio.netty.noUnsafe: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "explicitNoUnsafeCause0",
+    "file" : "PlatformDependent0.java",
+    "line" : 497,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 636991800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "Java version: 17",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "javaVersion0",
+    "file" : "PlatformDependent0.java",
+    "line" : 1001,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 640053000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.theUnsafe: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 137,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 641062800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.copyMemory: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 161,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 642064700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.storeFence: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 193,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 644069300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.Buffer.address: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 236,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 645066200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "direct buffer constructor: unavailable",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Reflective setAccessible(true) disabled",
+    "message" : "Reflective setAccessible(true) disabled",
+    "name" : "java.lang.UnsupportedOperationException",
+    "extendedStackTrace" : [ {
+      "class" : "io.netty.util.internal.ReflectionUtil",
+      "method" : "trySetAccessible",
+      "file" : "ReflectionUtil.java",
+      "line" : 31,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0$5",
+      "method" : "run",
+      "file" : "PlatformDependent0.java",
+      "line" : 289,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "java.security.AccessController",
+      "method" : "doPrivileged",
+      "file" : "AccessController.java",
+      "line" : 318,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent0.java",
+      "line" : 282,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "isAndroid",
+      "file" : "PlatformDependent.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 114,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 251,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 224,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 203,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "newNettyTimer",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 111,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "<init>",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 90,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.Dsl",
+      "method" : "asyncHttpClient",
+      "file" : "Dsl.java",
+      "line" : 32,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "createHttpClient",
+      "file" : "NettyClient.java",
+      "line" : 91,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "<clinit>",
+      "file" : "NettyClient.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient$Factory",
+      "method" : "createClient",
+      "file" : "NettyClient.java",
+      "line" : 124,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 92,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.service.DriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "DriverCommandExecutor.java",
+      "line" : 89,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chromium.ChromiumDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromiumDriverCommandExecutor.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-chromium-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "generateExecutor",
+      "file" : "ChromeDriver.java",
+      "line" : 105,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 83,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 51,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.base.automation.BaseTestAutomation",
+      "method" : "launchBrowser",
+      "file" : "BaseTestAutomation.java",
+      "line" : 66,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.testNg.SimpleTest",
+      "method" : "setUp",
+      "file" : "SimpleTest.java",
+      "line" : 33,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 77,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 568,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethod",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 139,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethodConsideringTimeout",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 69,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurationMethod",
+      "file" : "ConfigInvoker.java",
+      "line" : 390,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurations",
+      "file" : "ConfigInvoker.java",
+      "line" : 325,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "invokeBeforeClassMethods",
+      "file" : "TestMethodWorker.java",
+      "line" : 180,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "run",
+      "file" : "TestMethodWorker.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "java.util.ArrayList",
+      "method" : "forEach",
+      "file" : "ArrayList.java",
+      "line" : 1511,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "privateRun",
+      "file" : "TestRunner.java",
+      "line" : 848,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "run",
+      "file" : "TestRunner.java",
+      "line" : 621,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runTest",
+      "file" : "SuiteRunner.java",
+      "line" : 443,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runSequentially",
+      "file" : "SuiteRunner.java",
+      "line" : 437,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "privateRun",
+      "file" : "SuiteRunner.java",
+      "line" : 397,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "run",
+      "file" : "SuiteRunner.java",
+      "line" : 336,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "runSuite",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 52,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "run",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 95,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesSequentially",
+      "file" : "TestNG.java",
+      "line" : 1280,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesLocally",
+      "file" : "TestNG.java",
+      "line" : 1200,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuites",
+      "file" : "TestNG.java",
+      "line" : 1114,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "run",
+      "file" : "TestNG.java",
+      "line" : 1082,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.remote.AbstractRemoteTestNG",
+      "method" : "run",
+      "file" : "AbstractRemoteTestNG.java",
+      "line" : 115,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "initAndRun",
+      "file" : "RemoteTestNG.java",
+      "line" : 251,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "main",
+      "file" : "RemoteTestNG.java",
+      "line" : 77,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 318,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 683853700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.Bits.unaligned: available, true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 386,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 686847900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @72d818d1",
+    "message" : "class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @72d818d1",
+    "name" : "java.lang.IllegalAccessException",
+    "extendedStackTrace" : [ {
+      "class" : "jdk.internal.reflect.Reflection",
+      "method" : "newIllegalAccessException",
+      "file" : "Reflection.java",
+      "line" : 392,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.AccessibleObject",
+      "method" : "checkAccess",
+      "file" : "AccessibleObject.java",
+      "line" : 674,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 560,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0$7",
+      "method" : "run",
+      "file" : "PlatformDependent0.java",
+      "line" : 411,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "java.security.AccessController",
+      "method" : "doPrivileged",
+      "file" : "AccessController.java",
+      "line" : 318,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent0.java",
+      "line" : 402,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "isAndroid",
+      "file" : "PlatformDependent.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 114,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 251,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 224,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 203,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "newNettyTimer",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 111,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "<init>",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 90,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.Dsl",
+      "method" : "asyncHttpClient",
+      "file" : "Dsl.java",
+      "line" : 32,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "createHttpClient",
+      "file" : "NettyClient.java",
+      "line" : 91,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "<clinit>",
+      "file" : "NettyClient.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient$Factory",
+      "method" : "createClient",
+      "file" : "NettyClient.java",
+      "line" : 124,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 92,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.service.DriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "DriverCommandExecutor.java",
+      "line" : 89,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chromium.ChromiumDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromiumDriverCommandExecutor.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-chromium-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "generateExecutor",
+      "file" : "ChromeDriver.java",
+      "line" : 105,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 83,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 51,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.base.automation.BaseTestAutomation",
+      "method" : "launchBrowser",
+      "file" : "BaseTestAutomation.java",
+      "line" : 66,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.testNg.SimpleTest",
+      "method" : "setUp",
+      "file" : "SimpleTest.java",
+      "line" : 33,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 77,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 568,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethod",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 139,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethodConsideringTimeout",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 69,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurationMethod",
+      "file" : "ConfigInvoker.java",
+      "line" : 390,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurations",
+      "file" : "ConfigInvoker.java",
+      "line" : 325,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "invokeBeforeClassMethods",
+      "file" : "TestMethodWorker.java",
+      "line" : 180,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "run",
+      "file" : "TestMethodWorker.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "java.util.ArrayList",
+      "method" : "forEach",
+      "file" : "ArrayList.java",
+      "line" : 1511,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "privateRun",
+      "file" : "TestRunner.java",
+      "line" : 848,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "run",
+      "file" : "TestRunner.java",
+      "line" : 621,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runTest",
+      "file" : "SuiteRunner.java",
+      "line" : 443,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runSequentially",
+      "file" : "SuiteRunner.java",
+      "line" : 437,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "privateRun",
+      "file" : "SuiteRunner.java",
+      "line" : 397,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "run",
+      "file" : "SuiteRunner.java",
+      "line" : 336,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "runSuite",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 52,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "run",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 95,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesSequentially",
+      "file" : "TestNG.java",
+      "line" : 1280,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesLocally",
+      "file" : "TestNG.java",
+      "line" : 1200,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuites",
+      "file" : "TestNG.java",
+      "line" : 1114,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "run",
+      "file" : "TestNG.java",
+      "line" : 1082,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.remote.AbstractRemoteTestNG",
+      "method" : "run",
+      "file" : "AbstractRemoteTestNG.java",
+      "line" : 115,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "initAndRun",
+      "file" : "RemoteTestNG.java",
+      "line" : 251,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "main",
+      "file" : "RemoteTestNG.java",
+      "line" : 77,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 450,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 692848400
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 483,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 694851300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "sun.misc.Unsafe: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "unsafeUnavailabilityCause0",
+    "file" : "PlatformDependent.java",
+    "line" : 1159,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 695851500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "maxDirectMemory: 4253024256 bytes (maybe)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "estimateMaxDirectMemory",
+    "file" : "PlatformDependent.java",
+    "line" : 1270,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 702849100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.tmpdir: C:\\Users\\gorti\\AppData\\Local\\Temp (java.io.tmpdir)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "tmpdir0",
+    "file" : "PlatformDependent.java",
+    "line" : 1289,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 704849300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.bitMode: 64 (sun.arch.data.model)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "bitMode0",
+    "file" : "PlatformDependent.java",
+    "line" : 1368,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 706851900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "Platform: Windows",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "isWindows0",
+    "file" : "PlatformDependent.java",
+    "line" : 1119,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 708851200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.maxDirectMemory: -1 bytes",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 178,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 709853300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.uninitializedArrayAllocationThreshold: -1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 185,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 712851500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.CleanerJava9",
+  "message" : "java.nio.ByteBuffer.cleaner(): available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.CleanerJava9",
+    "method" : "<clinit>",
+    "file" : "CleanerJava9.java",
+    "line" : 71,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 713853600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.noPreferDirect: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 205,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 721855600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "org.jctools-core.MpscChunkedArrayQueue: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent$Mpsc",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 1010,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 747929100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.InternalThreadLocalMap",
+  "message" : "-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.InternalThreadLocalMap",
+    "method" : "<clinit>",
+    "file" : "InternalThreadLocalMap.java",
+    "line" : 100,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019353,
+    "nanoOfSecond" : 748957100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.InternalThreadLocalMap",
+  "message" : "-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.InternalThreadLocalMap",
+    "method" : "<clinit>",
+    "file" : "InternalThreadLocalMap.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 3974900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.ssl.JdkSslContext",
+  "message" : "Default protocols (JDK): [TLSv1.3, TLSv1.2] ",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.ssl.JdkSslContext",
+    "method" : "<clinit>",
+    "file" : "JdkSslContext.java",
+    "line" : 83,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 5950000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.ssl.JdkSslContext",
+  "message" : "Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.ssl.JdkSslContext",
+    "method" : "<clinit>",
+    "file" : "JdkSslContext.java",
+    "line" : 84,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 21872800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.concurrent.GlobalEventExecutor",
+  "message" : "-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.concurrent.GlobalEventExecutor",
+    "method" : "<clinit>",
+    "file" : "GlobalEventExecutor.java",
+    "line" : 53,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 39945100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.MultithreadEventLoopGroup",
+  "message" : "-Dio.netty.eventLoopThreads: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.MultithreadEventLoopGroup",
+    "method" : "<clinit>",
+    "file" : "MultithreadEventLoopGroup.java",
+    "line" : 44,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 52952600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "-Dio.netty.noKeySetOptimization: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "<clinit>",
+    "file" : "NioEventLoop.java",
+    "line" : 110,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 53942800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "-Dio.netty.selectorAutoRebuildThreshold: 512",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "<clinit>",
+    "file" : "NioEventLoop.java",
+    "line" : 111,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 83494900
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@750ff7d3",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 88498300
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@a0db585",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 92497800
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b34e38c",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 96493600
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3d37203b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 100493500
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7fd26ad8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 105502200
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1894593a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 109494900
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14b0e127",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 114498500
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@10823d72",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 119494100
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7cea0110",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 123493600
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@468dda3e",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 128493000
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5527b211",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 133493600
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@54cf7c6a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 138493100
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@78010562",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 142492800
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50756c76",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 148494900
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@38aafb53",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 154495500
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1729ec00",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 181022500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.numHeapArenas: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 157,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 182020900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.numDirectArenas: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 158,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 183021500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.pageSize: 8192",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 160,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 184021000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxOrder: 9",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 165,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 184021000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.chunkSize: 4194304",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 169,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 185021800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.smallCacheSize: 256",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 170,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 186022200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.normalCacheSize: 64",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 171,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 186022200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxCachedBufferCapacity: 32768",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 172,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 186022200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.cacheTrimInterval: 8192",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 173,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 187022300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.cacheTrimIntervalMillis: 0",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 174,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 187022300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.useCacheForAllThreads: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 175,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 188022300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 176,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 208838600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.allocator.type: pooled",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 89,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 209841300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.threadLocalDirectBufferSize: 0",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 98,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 210842500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.maxThreadLocalCharBufferSize: 16384",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 584210700
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.DefaultChannelId",
+  "message" : "-Dio.netty.processId: 6176 (auto-detected)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.DefaultChannelId",
+    "method" : "<clinit>",
+    "file" : "DefaultChannelId.java",
+    "line" : 79,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 589210900
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "-Djava.net.preferIPv4Stack: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil",
+    "method" : "<clinit>",
+    "file" : "NetUtil.java",
+    "line" : 148,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 590210900
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "-Djava.net.preferIPv6Addresses: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil",
+    "method" : "<clinit>",
+    "file" : "NetUtil.java",
+    "line" : 149,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 603209800
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtilInitializations",
+  "message" : "Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtilInitializations",
+    "method" : "determineLoopback",
+    "file" : "NetUtilInitializations.java",
+    "line" : 145,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 606209800
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "Failed to get SOMAXCONN from sysctl and file \\proc\\sys\\net\\core\\somaxconn. Default: 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil$SoMaxConnAction",
+    "method" : "run",
+    "file" : "NetUtil.java",
+    "line" : 206,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 634211100
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.DefaultChannelId",
+  "message" : "-Dio.netty.machineId: 6c:a1:00:ff:fe:5e:c9:db (auto-detected)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.DefaultChannelId",
+    "method" : "<clinit>",
+    "file" : "DefaultChannelId.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 699744500
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.AbstractByteBuf",
+  "message" : "-Dio.netty.buffer.checkAccessible: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.AbstractByteBuf",
+    "method" : "<clinit>",
+    "file" : "AbstractByteBuf.java",
+    "line" : 63,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 700742100
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.AbstractByteBuf",
+  "message" : "-Dio.netty.buffer.checkBounds: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.AbstractByteBuf",
+    "method" : "<clinit>",
+    "file" : "AbstractByteBuf.java",
+    "line" : 64,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 701742800
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetectorFactory",
+  "message" : "Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7a585e06",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory",
+    "method" : "newResourceLeakDetector",
+    "file" : "ResourceLeakDetectorFactory.java",
+    "line" : 196,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 741742000
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.maxCapacityPerThread: 4096",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 96,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 742741100
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.ratio: 8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 97,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 742741100
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.chunkSize: 32",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 98,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 743741900
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.blocking: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 99,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019354,
+    "nanoOfSecond" : 744742000
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.batchFastThreadLocalOnly: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 100,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019355,
+    "nanoOfSecond" : 584874800
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.codec.compression.Brotli",
+  "message" : "brotli4j not in the classpath; Brotli support will be unavailable.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.codec.compression.Brotli",
+    "method" : "<clinit>",
+    "file" : "Brotli.java",
+    "line" : 38,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019355,
+    "nanoOfSecond" : 742252100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.ThreadLocalRandom",
+  "message" : "-Dio.netty.initialSeedUniquifier: 0xe07ec1d4c9ae36fe",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.ThreadLocalRandom",
+    "method" : "newSeed",
+    "file" : "ThreadLocalRandom.java",
+    "line" : 214,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019383,
+    "nanoOfSecond" : 610022200
+  },
+  "thread" : "AsyncHttpClient-1-4",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder",
+  "message" : "Encoding WebSocket Frame opCode=8 length=26",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 37,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder",
+    "method" : "encode",
+    "file" : "WebSocket08FrameEncoder.java",
+    "line" : 129,
+    "classLoaderName" : "app"
+  }
+}
+
+]
+{
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 270457200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.logging.InternalLoggerFactory",
+  "message" : "Using Log4J2 as the default logging framework",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.logging.InternalLoggerFactory",
+    "method" : "useLog4J2LoggerFactory",
+    "file" : "InternalLoggerFactory.java",
+    "line" : 76,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 411808600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetector",
+  "message" : "-Dio.netty.leakDetection.level: simple",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetector",
+    "method" : "<clinit>",
+    "file" : "ResourceLeakDetector.java",
+    "line" : 129,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 412809100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetector",
+  "message" : "-Dio.netty.leakDetection.targetRecords: 4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetector",
+    "method" : "<clinit>",
+    "file" : "ResourceLeakDetector.java",
+    "line" : 130,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 421808800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetectorFactory",
+  "message" : "Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2a1debfa",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory",
+    "method" : "newResourceLeakDetector",
+    "file" : "ResourceLeakDetectorFactory.java",
+    "line" : 196,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 458808000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "-Dio.netty.noUnsafe: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "explicitNoUnsafeCause0",
+    "file" : "PlatformDependent0.java",
+    "line" : 497,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 459809100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "Java version: 17",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "javaVersion0",
+    "file" : "PlatformDependent0.java",
+    "line" : 1001,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 461814600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.theUnsafe: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 137,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 464026200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.copyMemory: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 161,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 465041900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "sun.misc.Unsafe.storeFence: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 193,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 467035500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.Buffer.address: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 236,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 471040100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "direct buffer constructor: unavailable",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Reflective setAccessible(true) disabled",
+    "message" : "Reflective setAccessible(true) disabled",
+    "name" : "java.lang.UnsupportedOperationException",
+    "extendedStackTrace" : [ {
+      "class" : "io.netty.util.internal.ReflectionUtil",
+      "method" : "trySetAccessible",
+      "file" : "ReflectionUtil.java",
+      "line" : 31,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0$5",
+      "method" : "run",
+      "file" : "PlatformDependent0.java",
+      "line" : 289,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "java.security.AccessController",
+      "method" : "doPrivileged",
+      "file" : "AccessController.java",
+      "line" : 318,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent0.java",
+      "line" : 282,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "isAndroid",
+      "file" : "PlatformDependent.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 114,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 251,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 224,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 203,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "newNettyTimer",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 111,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "<init>",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 90,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.Dsl",
+      "method" : "asyncHttpClient",
+      "file" : "Dsl.java",
+      "line" : 32,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "createHttpClient",
+      "file" : "NettyClient.java",
+      "line" : 91,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "<clinit>",
+      "file" : "NettyClient.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient$Factory",
+      "method" : "createClient",
+      "file" : "NettyClient.java",
+      "line" : 124,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 92,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.service.DriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "DriverCommandExecutor.java",
+      "line" : 89,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chromium.ChromiumDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromiumDriverCommandExecutor.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-chromium-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "generateExecutor",
+      "file" : "ChromeDriver.java",
+      "line" : 105,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 83,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 51,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.base.automation.BaseTestAutomation",
+      "method" : "launchBrowser",
+      "file" : "BaseTestAutomation.java",
+      "line" : 66,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.testNg.SimpleTest",
+      "method" : "setUp",
+      "file" : "SimpleTest.java",
+      "line" : 31,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 77,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 568,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethod",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 139,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethodConsideringTimeout",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 69,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurationMethod",
+      "file" : "ConfigInvoker.java",
+      "line" : 390,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurations",
+      "file" : "ConfigInvoker.java",
+      "line" : 325,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "invokeBeforeClassMethods",
+      "file" : "TestMethodWorker.java",
+      "line" : 180,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "run",
+      "file" : "TestMethodWorker.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "java.util.ArrayList",
+      "method" : "forEach",
+      "file" : "ArrayList.java",
+      "line" : 1511,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "privateRun",
+      "file" : "TestRunner.java",
+      "line" : 848,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "run",
+      "file" : "TestRunner.java",
+      "line" : 621,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runTest",
+      "file" : "SuiteRunner.java",
+      "line" : 443,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runSequentially",
+      "file" : "SuiteRunner.java",
+      "line" : 437,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "privateRun",
+      "file" : "SuiteRunner.java",
+      "line" : 397,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "run",
+      "file" : "SuiteRunner.java",
+      "line" : 336,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "runSuite",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 52,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "run",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 95,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesSequentially",
+      "file" : "TestNG.java",
+      "line" : 1280,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesLocally",
+      "file" : "TestNG.java",
+      "line" : 1200,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuites",
+      "file" : "TestNG.java",
+      "line" : 1114,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "run",
+      "file" : "TestNG.java",
+      "line" : 1082,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.remote.AbstractRemoteTestNG",
+      "method" : "run",
+      "file" : "AbstractRemoteTestNG.java",
+      "line" : 115,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "initAndRun",
+      "file" : "RemoteTestNG.java",
+      "line" : 251,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "main",
+      "file" : "RemoteTestNG.java",
+      "line" : 77,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 318,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 513829700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.Bits.unaligned: available, true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 386,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 516844800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @72d818d1",
+    "message" : "class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @72d818d1",
+    "name" : "java.lang.IllegalAccessException",
+    "extendedStackTrace" : [ {
+      "class" : "jdk.internal.reflect.Reflection",
+      "method" : "newIllegalAccessException",
+      "file" : "Reflection.java",
+      "line" : 392,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.AccessibleObject",
+      "method" : "checkAccess",
+      "file" : "AccessibleObject.java",
+      "line" : 674,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 560,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0$7",
+      "method" : "run",
+      "file" : "PlatformDependent0.java",
+      "line" : 411,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "java.security.AccessController",
+      "method" : "doPrivileged",
+      "file" : "AccessController.java",
+      "line" : 318,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent0",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent0.java",
+      "line" : 402,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "isAndroid",
+      "file" : "PlatformDependent.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.internal.PlatformDependent",
+      "method" : "<clinit>",
+      "file" : "PlatformDependent.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 114,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 251,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 224,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "io.netty.util.HashedWheelTimer",
+      "method" : "<init>",
+      "file" : "HashedWheelTimer.java",
+      "line" : 203,
+      "exact" : false,
+      "location" : "netty-common-4.1.96.Final.jar",
+      "version" : "4.1.96.Final"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "newNettyTimer",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 111,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.DefaultAsyncHttpClient",
+      "method" : "<init>",
+      "file" : "DefaultAsyncHttpClient.java",
+      "line" : 90,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.asynchttpclient.Dsl",
+      "method" : "asyncHttpClient",
+      "file" : "Dsl.java",
+      "line" : 32,
+      "exact" : false,
+      "location" : "async-http-client-2.12.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "createHttpClient",
+      "file" : "NettyClient.java",
+      "line" : 91,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient",
+      "method" : "<clinit>",
+      "file" : "NettyClient.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.http.netty.NettyClient$Factory",
+      "method" : "createClient",
+      "file" : "NettyClient.java",
+      "line" : 124,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.HttpCommandExecutor",
+      "method" : "<init>",
+      "file" : "HttpCommandExecutor.java",
+      "line" : 92,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.remote.service.DriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "DriverCommandExecutor.java",
+      "line" : 89,
+      "exact" : false,
+      "location" : "selenium-remote-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chromium.ChromiumDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromiumDriverCommandExecutor.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "selenium-chromium-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "generateExecutor",
+      "file" : "ChromeDriver.java",
+      "line" : 105,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 88,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 83,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.openqa.selenium.chrome.ChromeDriver",
+      "method" : "<init>",
+      "file" : "ChromeDriver.java",
+      "line" : 51,
+      "exact" : false,
+      "location" : "selenium-chrome-driver-4.13.0.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.base.automation.BaseTestAutomation",
+      "method" : "launchBrowser",
+      "file" : "BaseTestAutomation.java",
+      "line" : 66,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "com.tests.testNg.SimpleTest",
+      "method" : "setUp",
+      "file" : "SimpleTest.java",
+      "line" : 31,
+      "exact" : false,
+      "location" : "test-classes/",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 77,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 568,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethod",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 139,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.MethodInvocationHelper",
+      "method" : "invokeMethodConsideringTimeout",
+      "file" : "MethodInvocationHelper.java",
+      "line" : 69,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurationMethod",
+      "file" : "ConfigInvoker.java",
+      "line" : 390,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.ConfigInvoker",
+      "method" : "invokeConfigurations",
+      "file" : "ConfigInvoker.java",
+      "line" : 325,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "invokeBeforeClassMethods",
+      "file" : "TestMethodWorker.java",
+      "line" : 180,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.internal.invokers.TestMethodWorker",
+      "method" : "run",
+      "file" : "TestMethodWorker.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "java.util.ArrayList",
+      "method" : "forEach",
+      "file" : "ArrayList.java",
+      "line" : 1511,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "privateRun",
+      "file" : "TestRunner.java",
+      "line" : 848,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestRunner",
+      "method" : "run",
+      "file" : "TestRunner.java",
+      "line" : 621,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runTest",
+      "file" : "SuiteRunner.java",
+      "line" : 443,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "runSequentially",
+      "file" : "SuiteRunner.java",
+      "line" : 437,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "privateRun",
+      "file" : "SuiteRunner.java",
+      "line" : 397,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunner",
+      "method" : "run",
+      "file" : "SuiteRunner.java",
+      "line" : 336,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "runSuite",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 52,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.SuiteRunnerWorker",
+      "method" : "run",
+      "file" : "SuiteRunnerWorker.java",
+      "line" : 95,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesSequentially",
+      "file" : "TestNG.java",
+      "line" : 1280,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuitesLocally",
+      "file" : "TestNG.java",
+      "line" : 1200,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "runSuites",
+      "file" : "TestNG.java",
+      "line" : 1114,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.TestNG",
+      "method" : "run",
+      "file" : "TestNG.java",
+      "line" : 1082,
+      "exact" : true,
+      "location" : "testng-7.8.0.jar",
+      "version" : "7.8.0"
+    }, {
+      "class" : "org.testng.remote.AbstractRemoteTestNG",
+      "method" : "run",
+      "file" : "AbstractRemoteTestNG.java",
+      "line" : 115,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "initAndRun",
+      "file" : "RemoteTestNG.java",
+      "line" : 251,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.testng.remote.RemoteTestNG",
+      "method" : "main",
+      "file" : "RemoteTestNG.java",
+      "line" : 77,
+      "exact" : true,
+      "location" : "testng-remote.jar",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 450,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 523829700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent0",
+  "message" : "java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent0",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent0.java",
+    "line" : 483,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 524824800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "sun.misc.Unsafe: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "unsafeUnavailabilityCause0",
+    "file" : "PlatformDependent.java",
+    "line" : 1159,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 525831900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "maxDirectMemory: 4253024256 bytes (maybe)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "estimateMaxDirectMemory",
+    "file" : "PlatformDependent.java",
+    "line" : 1270,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 532831800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.tmpdir: C:\\Users\\gorti\\AppData\\Local\\Temp (java.io.tmpdir)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "tmpdir0",
+    "file" : "PlatformDependent.java",
+    "line" : 1289,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 535848800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.bitMode: 64 (sun.arch.data.model)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "bitMode0",
+    "file" : "PlatformDependent.java",
+    "line" : 1368,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 538837800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "Platform: Windows",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "isWindows0",
+    "file" : "PlatformDependent.java",
+    "line" : 1119,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 541843800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.maxDirectMemory: -1 bytes",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 178,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 541843800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.uninitializedArrayAllocationThreshold: -1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 185,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 544841800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.CleanerJava9",
+  "message" : "java.nio.ByteBuffer.cleaner(): available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.CleanerJava9",
+    "method" : "<clinit>",
+    "file" : "CleanerJava9.java",
+    "line" : 71,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 545835900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "-Dio.netty.noPreferDirect: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 205,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 557742200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.PlatformDependent",
+  "message" : "org.jctools-core.MpscChunkedArrayQueue: available",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.PlatformDependent$Mpsc",
+    "method" : "<clinit>",
+    "file" : "PlatformDependent.java",
+    "line" : 1010,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 590603400
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.InternalThreadLocalMap",
+  "message" : "-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.InternalThreadLocalMap",
+    "method" : "<clinit>",
+    "file" : "InternalThreadLocalMap.java",
+    "line" : 100,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 591600200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.InternalThreadLocalMap",
+  "message" : "-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.InternalThreadLocalMap",
+    "method" : "<clinit>",
+    "file" : "InternalThreadLocalMap.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 882913200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.ssl.JdkSslContext",
+  "message" : "Default protocols (JDK): [TLSv1.3, TLSv1.2] ",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.ssl.JdkSslContext",
+    "method" : "<clinit>",
+    "file" : "JdkSslContext.java",
+    "line" : 83,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 883938400
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.ssl.JdkSslContext",
+  "message" : "Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.ssl.JdkSslContext",
+    "method" : "<clinit>",
+    "file" : "JdkSslContext.java",
+    "line" : 84,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 906929700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.concurrent.GlobalEventExecutor",
+  "message" : "-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.concurrent.GlobalEventExecutor",
+    "method" : "<clinit>",
+    "file" : "GlobalEventExecutor.java",
+    "line" : 53,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 924907500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.MultithreadEventLoopGroup",
+  "message" : "-Dio.netty.eventLoopThreads: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.MultithreadEventLoopGroup",
+    "method" : "<clinit>",
+    "file" : "MultithreadEventLoopGroup.java",
+    "line" : 44,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 940918000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "-Dio.netty.noKeySetOptimization: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "<clinit>",
+    "file" : "NioEventLoop.java",
+    "line" : 110,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 942912100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "-Dio.netty.selectorAutoRebuildThreshold: 512",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "<clinit>",
+    "file" : "NioEventLoop.java",
+    "line" : 111,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 966016300
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1000d54d",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 971023800
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2620e717",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 976017900
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7c8d5312",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 980734600
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7636823f",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 985726200
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@a0db585",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019458,
+    "nanoOfSecond" : 996723500
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b34e38c",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 2728400
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3d37203b",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 6719500
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7fd26ad8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 10723000
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1894593a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 14726800
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14b0e127",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 18718800
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@10823d72",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 23724700
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7cea0110",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 26741700
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@468dda3e",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 31718400
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5527b211",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 36720000
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@54cf7c6a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 42741400
+  },
+  "thread" : "main",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.channel.nio.NioEventLoop",
+  "message" : "instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@78010562",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.nio.NioEventLoop",
+    "method" : "openSelector",
+    "file" : "NioEventLoop.java",
+    "line" : 264,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 71804300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.numHeapArenas: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 157,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 75815200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.numDirectArenas: 16",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 158,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 75815200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.pageSize: 8192",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 160,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 77420200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxOrder: 9",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 165,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 79512600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.chunkSize: 4194304",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 169,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 79512600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.smallCacheSize: 256",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 170,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 80520200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.normalCacheSize: 64",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 171,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 81510900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxCachedBufferCapacity: 32768",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 172,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 81510900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.cacheTrimInterval: 8192",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 173,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 82520200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.cacheTrimIntervalMillis: 0",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 174,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 82520200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.useCacheForAllThreads: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 175,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 83516600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.PooledByteBufAllocator",
+  "message" : "-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.PooledByteBufAllocator",
+    "method" : "<clinit>",
+    "file" : "PooledByteBufAllocator.java",
+    "line" : 176,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 100517700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.allocator.type: pooled",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 89,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 102516100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.threadLocalDirectBufferSize: 0",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 98,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 103520100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.ByteBufUtil",
+  "message" : "-Dio.netty.maxThreadLocalCharBufferSize: 16384",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.ByteBufUtil",
+    "method" : "<clinit>",
+    "file" : "ByteBufUtil.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 495982500
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.DefaultChannelId",
+  "message" : "-Dio.netty.processId: 26740 (auto-detected)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.DefaultChannelId",
+    "method" : "<clinit>",
+    "file" : "DefaultChannelId.java",
+    "line" : 79,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 500986100
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "-Djava.net.preferIPv4Stack: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil",
+    "method" : "<clinit>",
+    "file" : "NetUtil.java",
+    "line" : 148,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 500986100
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "-Djava.net.preferIPv6Addresses: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil",
+    "method" : "<clinit>",
+    "file" : "NetUtil.java",
+    "line" : 149,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 512987700
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtilInitializations",
+  "message" : "Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtilInitializations",
+    "method" : "determineLoopback",
+    "file" : "NetUtilInitializations.java",
+    "line" : 145,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 514986800
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.NetUtil",
+  "message" : "Failed to get SOMAXCONN from sysctl and file \\proc\\sys\\net\\core\\somaxconn. Default: 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.NetUtil$SoMaxConnAction",
+    "method" : "run",
+    "file" : "NetUtil.java",
+    "line" : 206,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 545984800
+  },
+  "thread" : "Forwarding newSession on session null to remote",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.channel.DefaultChannelId",
+  "message" : "-Dio.netty.machineId: 6c:a1:00:ff:fe:5e:c9:db (auto-detected)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.channel.DefaultChannelId",
+    "method" : "<clinit>",
+    "file" : "DefaultChannelId.java",
+    "line" : 101,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 628522600
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.AbstractByteBuf",
+  "message" : "-Dio.netty.buffer.checkAccessible: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.AbstractByteBuf",
+    "method" : "<clinit>",
+    "file" : "AbstractByteBuf.java",
+    "line" : 63,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 629522100
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.buffer.AbstractByteBuf",
+  "message" : "-Dio.netty.buffer.checkBounds: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.buffer.AbstractByteBuf",
+    "method" : "<clinit>",
+    "file" : "AbstractByteBuf.java",
+    "line" : 64,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 629522100
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.ResourceLeakDetectorFactory",
+  "message" : "Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5a9848ab",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory",
+    "method" : "newResourceLeakDetector",
+    "file" : "ResourceLeakDetectorFactory.java",
+    "line" : 196,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 670530800
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.maxCapacityPerThread: 4096",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 96,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 671530400
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.ratio: 8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 97,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 671530400
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.chunkSize: 32",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 98,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 672529900
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.blocking: false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 99,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019459,
+    "nanoOfSecond" : 672529900
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.Recycler",
+  "message" : "-Dio.netty.recycler.batchFastThreadLocalOnly: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.Recycler",
+    "method" : "<clinit>",
+    "file" : "Recycler.java",
+    "line" : 100,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019460,
+    "nanoOfSecond" : 531726400
+  },
+  "thread" : "AsyncHttpClient-1-2",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.handler.codec.compression.Brotli",
+  "message" : "brotli4j not in the classpath; Brotli support will be unavailable.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 35,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.codec.compression.Brotli",
+    "method" : "<clinit>",
+    "file" : "Brotli.java",
+    "line" : 38,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019460,
+    "nanoOfSecond" : 685334800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "io.netty.util.internal.ThreadLocalRandom",
+  "message" : "-Dio.netty.initialSeedUniquifier: 0x9ef157d39b291fc8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.util.internal.ThreadLocalRandom",
+    "method" : "newSeed",
+    "file" : "ThreadLocalRandom.java",
+    "line" : 214,
+    "classLoaderName" : "app"
+  }
+}
+, {
+  "instant" : {
+    "epochSecond" : 1698019488,
+    "nanoOfSecond" : 299619500
+  },
+  "thread" : "AsyncHttpClient-1-4",
+  "level" : "TRACE",
+  "loggerName" : "io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder",
+  "message" : "Encoding WebSocket Frame opCode=8 length=26",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "contextMap" : { },
+  "threadId" : 37,
+  "threadPriority" : 5,
+  "source" : {
+    "class" : "io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder",
+    "method" : "encode",
+    "file" : "WebSocket08FrameEncoder.java",
+    "line" : 129,
+    "classLoaderName" : "app"
+  }
+}
+
+]

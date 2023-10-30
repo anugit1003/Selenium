@@ -14,18 +14,7 @@ import com.tests.util.automation.Constants;
 public class SalesForceLandingPage extends BaseTestAutomation {
 
 	
-	@BeforeTest
-	public void setUp() {
-		initializeProperties();
-		launchBrowser(getProps().getProperty(Constants.BROWSER));
-		goToUrl(getProps().getProperty(Constants.SALESFORCE_URL));
-		maximiseBrowser();
-	}
 	
-	@AfterTest
-	public void closeBrowser() {
-		quitBrowser();
-	}
 
 	@Test
 	public void testLoginPage() throws Exception {

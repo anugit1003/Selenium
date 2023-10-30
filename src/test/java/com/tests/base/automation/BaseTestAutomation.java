@@ -12,11 +12,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
+import com.tests.util.automation.Constants;
 import com.tests.util.automation.PropertiesUtility;
 
 public class BaseTestAutomation {
-
+	
+	
 	private String userId;
 
 	private WebDriver driver;
@@ -69,7 +72,7 @@ public class BaseTestAutomation {
 			System.out.println("chrome driver initialized");
 			break;
 		default:
-			System.out.println("you have not entrered the correct browser");
+			System.err.println("you have not entrered the correct browser");
 		}
 	}
 
@@ -78,7 +81,7 @@ public class BaseTestAutomation {
 		System.out.println(url + "is entered");
 	}
 
-	public void maximiseBrowser() {
+	public void maximizeBrowser() {
 		getDriver().manage().window().maximize();
 		System.out.println("browser window has maximized");
 	}
@@ -103,7 +106,7 @@ public class BaseTestAutomation {
 			System.out.println("compare string successful for "+ compareString);
 			compareText = true;
 		}else {
-			System.out.println("compare string  not successful for "+ compareString);
+			System.err.println("compare string  not successful for "+ compareString);
 			
 		}
 		
@@ -121,7 +124,7 @@ public class BaseTestAutomation {
 			ele.sendKeys(data);
 			System.out.println("data is entered in the " + objectName);
 		} else {
-			System.out.println(objectName + " element is not displayed");
+			System.err.println(objectName + " element is not displayed");
 		}
 	}
 	
@@ -132,7 +135,7 @@ public class BaseTestAutomation {
 			element.sendKeys(data);
 			System.out.println("data is entered in the " + objectName);
 		} else {
-			System.out.println(objectName + " element is not displayed");
+			System.err.println(objectName + " element is not displayed");
 		}
 	}
 
@@ -141,7 +144,7 @@ public class BaseTestAutomation {
 			ele.click();
 			System.out.println(objectName + "button is clicked");
 		} else {
-			System.out.println("button element is not enabled");
+			System.err.println("button element is not enabled");
 		}
 	}
 
@@ -162,7 +165,7 @@ public class BaseTestAutomation {
 			ele.clear();
 			System.out.println(objectNam + "is cleared");
 		}else {
-			System.out.println(objectNam +"is not displayed" );
+			System.err.println(objectNam +"is not displayed" );
 		}
 	}
 	
@@ -178,6 +181,8 @@ public class BaseTestAutomation {
 		getDriver().switchTo().frame(element);
 		
 	}
+	
+	
 	/*public void selectByIndex(WebElement element,int index,String objectName) {
 		waitForVisibility(element,5,objectName);
 		

@@ -15,7 +15,7 @@ public class TestActionClass extends BaseTestAutomation {
 		launchBrowser("chrome");
 		goToUrl("https://www.salesforce.com/");
 		Thread.sleep(5000);
-		maximiseBrowser();
+		maximizeBrowser();
 		//getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		Actions action = new Actions(getDriver());
 		WebElement element = getDriver()

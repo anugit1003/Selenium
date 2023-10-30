@@ -10,27 +10,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.tests.base.automation.BaseTestAutomation;
 import com.tests.util.automation.Constants;
 
-public class TestFilePhotoUpload extends BaseTestAutomation {
-
+public class FilePhotoUploadTest extends BaseTestAutomation {
+	
 	@BeforeClass
 	public void setUp() {
 		initializeProperties();
 		launchBrowser(getProps().getProperty(Constants.BROWSER));
 		goToUrl(getProps().getProperty(Constants.SALESFORCE_URL));
-		maximiseBrowser();
+		maximizeBrowser();
 	}
-
+	
 	@AfterClass
 	public void closeBrowser() {
 		quitBrowser();
 	}
-
 	@Test
 	public void testLoginPage() throws Exception {
 		System.out.println("Login page Displayed");
@@ -39,13 +41,13 @@ public class TestFilePhotoUpload extends BaseTestAutomation {
 		enterText(usernameEle, getProps().getProperty(Constants.SF_USER_NAME), "user name");
 		WebElement passwordEle = getDriver().findElement(By.id("password"));
 		enterText(passwordEle, getProps().getProperty(Constants.SF_PASSWORD), "Password");
-		//WebElement buttonEle = getDriver().findElement(By.id("Login"));
-		//clickElement(buttonEle, "login button");
 		findElementByAndClick(By.id("Login"));
 		Thread.sleep(3000);
 		System.out.println("Login page Clicked");
 
 	}
+
+	
 
 	@Test(dependsOnMethods = "testLoginPage")
 	public void testFileUploadPage() throws InterruptedException {
@@ -67,7 +69,7 @@ public class TestFilePhotoUpload extends BaseTestAutomation {
 	}
 	
 	@Test(dependsOnMethods = "testLoginPage")
-	public void testFileUpload() throws InterruptedException {
+	public void testPhotoUpload() throws InterruptedException {
 		findElementByAndClick(By.id("userNavLabel"));
 		
 		findElementByAndClick(By.xpath("//*[@id=\"userNav-menuItems\"]/a[1]"));	
@@ -85,11 +87,14 @@ public class TestFilePhotoUpload extends BaseTestAutomation {
 		File filePath = new File(path.toUri());
 		getDriver().findElement(By.id("j_id0:uploadFileForm:uploadInputFile")).sendKeys(filePath.toString());
 		Thread.sleep(5000);
-		WebElement element = getDriver().findElement(By.id("j_id0:uploadFileForm:uploadBtn"));
-		element.sendKeys(Keys.ENTER);
-		//findElementByAndClick(By.xpath("//*[@id=\"j_id0:uploadFileForm:save\"]"));
+		findElementByAndClick(By.id("j_id0:uploadFileForm:uploadBtn"));
+		//WebElement element = getDriver().findElement(By.id("j_id0:uploadFileForm:uploadBtn"));
+		//element.sendKeys(Keys.ENTER);		
 		Thread.sleep(10000);
-		//getDriver().switchTo().defaultContent();
+		findElementByAndClick(By.id("j_id0:j_id7:save"));
+		Thread.sleep(3000);
+		getDriver().switchTo().defaultContent();
+		Thread.sleep(2000);
 
 		
 		

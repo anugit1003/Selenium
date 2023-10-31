@@ -10,6 +10,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -119,7 +120,8 @@ public class MySettingsTest extends BaseTestAutomation {
 		}
 		
 		//https://tekarch36-dev-ed.develop.my.salesforce.com/p/setup/layout/ConfigureMyTabs?setupid=CustomizeTabs
-		//Assert.assertEquals(actualtext, actualtext);
+		Assert.assertEquals(isOptionFound, true);
+		logger.info("Test case passed");
 	}
 	
 	public void reSetSelectedTab() throws Exception{

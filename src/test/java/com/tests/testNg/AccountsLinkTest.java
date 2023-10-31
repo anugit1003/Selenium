@@ -1,5 +1,7 @@
 package com.tests.testNg;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -9,63 +11,63 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.tests.base.automation.BaseTestAutomation;
-import com.tests.util.automation.Constants;
 
 public class AccountsLinkTest extends BaseTestAutomation {
-	
+	static Logger logger = LogManager.getLogger(AccountsLinkTest.class.getName());
 
 	public AccountsLinkTest() {
 		System.out.println("****inside constructor");
 	}
-	
+
 	@BeforeClass
-	public void setUp() {
-		initializeProperties();
-		launchBrowser(getProps().getProperty(Constants.BROWSER));
-		goToUrl(getProps().getProperty(Constants.SALESFORCE_URL));
-		maximizeBrowser();
+	public void setUp() throws Exception {
+		launchBrowserAndLogin();
 	}
 
 	@AfterClass
-	public void closeBrowser() throws Exception {		
+	public void closeBrowser() throws Exception {
 		quitBrowser();
 	}
-	@Test
-	public void testLoginPage() throws Exception {
-		System.out.println("Login page Displayed");
-		WebElement usernameEle = getDriver().findElement(By.id("username"));
-		waitForVisibility(usernameEle, 5);
-		enterText(usernameEle, getProps().getProperty(Constants.SF_USER_NAME), "user name");
-		WebElement passwordEle = getDriver().findElement(By.id("password"));
-		enterText(passwordEle, getProps().getProperty(Constants.SF_PASSWORD), "Password");
-		findElementByAndClick(By.id("Login"));
-		Thread.sleep(3000);
-		System.out.println("Login page Clicked");
 
-	}
-	public void accountsTab() {
-		findElementByAndClick(By.id("AllTab_Tab"));
-		findElementByAndClick(By.xpath("//*[@id=\"bodyCell\"]/div[3]/div[2]/table/tbody/tr[1]/td[1]/a"));
-		WebElement usernameEle = getDriver().findElement(By.id("username"));
+	@Test
+	public void testAccountsTab() throws InterruptedException {
+		goToUrl("https://tekarch36-dev-ed.develop.my.salesforce.com/001/o");
+		Thread.sleep(3000);
+		WebElement usernameEle = getDriver().findElement(
+				By.xpath("/html/body/div[1]/div[2]/table/tbody/tr/td[1]/div/div[2]/div[2]/div[2]/div[1]/div/a/span"));
 		String username = usernameEle.getText();
 		System.out.println(username);
 		Assert.assertEquals(username, "Anuradha Jackson");
-		
+
 	}
-	public void createAccount() {
-		findElementByAndClick(By.name("new"));
+
+	@Test(dependsOnMethods = "testAccountsTab")
+	public void testCreateAccount() throws InterruptedException {
+		findElementByAndClick(By.xpath("//*[@id=\"hotlist\"]/table/tbody/tr/td[2]/input"));
+		Thread.sleep(2000);
 		WebElement textboxEle = getDriver().findElement(By.id("acc2"));
-		enterText(textboxEle,  "TestNG",  "AccountName");
-		Select availableType = new Select( getDriver().findElement(By.id("acc6")));
-		boolean isOptionFound = false;		
-		/*
-		 * for (WebElement option : availableType) { if
-		 * (option.getText().equals("Reports")) { isOptionFound = true;
-		 * availableTabs.selectByValue("report");
-		 * System.out.println("Reports is selected"); Thread.sleep(2000);
-		 * type.selectByValue("Technology Partner");
-		 */
+		enterText(textboxEle, "TestNG99", "AccountName");
+		Thread.sleep(2000);
+		Select availableType = new Select(getDriver().findElement(By.id("acc6")));
+		boolean isOptionFound = selectAndVerifyOptions(availableType, "Technology Partner");
+		Select customerPriority = new Select(getDriver().findElement(By.id("00NHs00000S6giG")));
+		customerPriority.selectByValue("High");
+		findElementByAndClick(By.xpath("//*[@id=\"bottomButtonRow\"]/input[1]"));
+		Thread.sleep(2000);
+		Assert.assertEquals(isOptionFound, true);
+		logger.info("Test Case Passed");
+
 	}
-
-
+	
+	@Test(dependsOnMethods = "testAccountsTab")
+	public void createNewView() throws InterruptedException {
+		findElementByAndClick(By.xpath("//*[@id=\"filter_element\"]/div/span/span[2]/a[2]"));
+		Thread.sleep(2000);
+		enterText(By.id("fname"), "Test99View", "create new view");
+		enterText(By.id("devname"), "Test99UniqueView","create new unique view");
+		findElementByAndClick(By.name("save"));
+		Thread.sleep(3000);	
+	}
+	
+	
 }

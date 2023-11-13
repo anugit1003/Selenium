@@ -211,12 +211,12 @@ public class BaseTestAutomation {
 	public boolean selectAndVerifyOptions(Select selectElement, String toVerify) {
 		List<WebElement> type = selectElement.getOptions();
 		boolean isOptionFound = false;
-		for (WebElement option : type) {
+		for (WebElement option : type) {			
 			if (option.getText().equals(toVerify)) {
 				isOptionFound = true;
-				selectElement.selectByValue(toVerify);
+				//String optionValue = option.getAttribute("value");
+				selectElement.selectByVisibleText(toVerify);
 				logger.info(toVerify + " is selected.");
-
 			}
 		}
 		

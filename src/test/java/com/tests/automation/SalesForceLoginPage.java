@@ -80,7 +80,7 @@ public class SalesForceLoginPage {
 		}
 		Thread.sleep(3000);
 		WebElement passwordEle = driver.findElement(By.id("password"));
-		if (passwordEle.isDisplayed() && usernameEle.isEnabled()) {
+		if (passwordEle.isDisplayed() && passwordEle.isEnabled()) {
 			passwordEle.clear();
 			passwordEle.sendKeys(getPassword());
 		} else {

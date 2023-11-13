@@ -38,7 +38,6 @@ public class AccountsLinkTest extends BaseTestAutomation {
 		String username = usernameEle.getText();
 		System.out.println(username);
 		Assert.assertEquals(username, "Anuradha Jackson");
-
 	}
 
 	@Test(dependsOnMethods = "testAccountsTab")
@@ -56,7 +55,6 @@ public class AccountsLinkTest extends BaseTestAutomation {
 		Thread.sleep(2000);
 		Assert.assertEquals(isOptionFound, true);
 		logger.info("Test Case Passed");
-
 	}
 	
 	@Test(dependsOnMethods = "testAccountsTab")
@@ -67,6 +65,24 @@ public class AccountsLinkTest extends BaseTestAutomation {
 		enterText(By.id("devname"), "Test99UniqueView","create new unique view");
 		findElementByAndClick(By.name("save"));
 		Thread.sleep(3000);	
+		logger.info(getDriver().findElement(By.tagName("select")));
+		Select availableViews = new Select(getDriver().findElement(By.tagName("select")));
+		Thread.sleep(2000);
+		boolean isOptionFound = selectAndVerifyOptions(availableViews, "Test99View");
+		Assert.assertEquals(isOptionFound, true);
+		logger.info("Test Case passed");
+	}
+	public void editNewView() {
+		findElementByAndClick(By.xpath("//*[@id=\"filter_element\"]/div/span/span[2]/a[1]"));
+		WebElement viewEle = getDriver().findElement(By.id("fname"));
+		clearElement(viewEle, "ViewName");
+		enterText(By.id("fname"), "NewTest99View", "create new view");
+	}
+	public void additionalFields() {
+		Select field = new Select(getDriver().findElement(By.id("fcol1")));
+		selectAndVerifyOptions(field, "Account Name");
+		Select operator = new Select(getDriver().findElement(By.id("fop1")));
+		selectAndVerifyOptions(operator, "contains");
 	}
 	
 	

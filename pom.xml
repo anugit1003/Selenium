@@ -47,20 +47,19 @@
 			<scope>test</scope>
 		</dependency>
 
-		
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.19.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
 			<version>2.19.0</version>
 		</dependency>
 
-		
 
 		<!-- For JSON Layout -->
 		<dependency>
@@ -73,9 +72,13 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.13.1</version>
 		</dependency>
-		
 
-
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
 
 
 	</dependencies>
